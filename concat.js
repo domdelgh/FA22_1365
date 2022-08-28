@@ -3,8 +3,12 @@
 // Takes in two strings
 // returns str1 concatenated with str2
 function concat(str1, str2){
-
-    return ;
+    
+    // this line of code will concat the values in str1 and str2 into str1
+    var str1 = str1.concat(str2); 
+    
+    [str1,str2].join();
+    return str1;
 }
 
 
