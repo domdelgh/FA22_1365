@@ -13,7 +13,7 @@ function shift(arr){
     temp[0]=arr[arr.length-1]
     return temp;
 }
-console.log(shift([1,2,3,45]))
+console.log(shift([1,2,3,4,5]))
 
 
 // ------------- STOP --------------------
